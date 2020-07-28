@@ -1,9 +1,13 @@
+"use strict";
 class Alder {
-    constructor(options) {
+    constructor(options = { auto: true }) {
         if (options.auto) {
             document
                 .querySelectorAll("* > div")
                 .forEach(element => this.parse(element));
+            document.body
+                .querySelectorAll("* > style")
+                .forEach(element => this.parse(element.parentElement));
         }
     }
 
