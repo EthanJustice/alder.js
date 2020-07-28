@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Alder | Tiny Scoped CSS Parser</title>
+        <link rel="stylesheet" type="text/css" href="./index.css" />
+    </head>
+    <body>
+        <nav>
+            <style>
+                nav a {
+                    margin: auto 2% auto 0;
+                }
+            </style>
+            <a href="./">Home</a>
+            <a href="https://github.com/EthanJustice/alder">Repository</a>
+        </nav>
+        <script src="./src/alder.js"></script>
+        <script>
+            let a = new Alder();
+        </script>
+    </body>
+</html>

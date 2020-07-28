@@ -1,0 +1,60 @@
+body.light {
+    --highlight: #16c581;
+
+    --primary: #fafafa;
+    --secondary: #212121;
+    --tertiary: #e1e1e1;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        --highlight: #16c581;
+
+        --primary: #212121;
+        --secondary: #b9bec5;
+        --tertiary: #404040;
+    }
+}
+
+body {
+    --primary-transition: linear;
+
+    margin: 0 auto;
+    padding: 10px;
+    background: var(--primary);
+    color: var(--secondary);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+}
+
+* {
+    animation: 300ms fadeIn var(--primary-transition);
+    transition: 150ms var(--primary-transition);
+}
+
+p {
+    line-height: 1.4;
+}
+
+a,
+a:visited {
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.fadeIn {
+    animation: 300ms fadeIn var(--primary-transition);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
