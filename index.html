@@ -15,7 +15,31 @@
             </style>
             <a href="./">Home</a>
             <a href="https://github.com/EthanJustice/alder">Repository</a>
+            <a href="https://github.com/EthanJustice/alder#docs">Docs</a>
         </nav>
+        <h1>Alder - A Micro Scoped-CSS Replacement</h1>
+        <p>
+            Alder acts as a replacement for the
+            <a
+                href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLStyleElement/scoped"
+                ><code>style</code> scoped attribute</a
+            >, which is now deprecated.
+        </p>
+        <div>
+            <style>
+                p {
+                    color: red;
+                }
+            </style>
+            <p>
+                If you inspect this <code>p</code> element and the one
+                immediately after its parent,
+            </p>
+        </div>
+        <p>
+            you'll notice that the previous <code>p</code> is styled, while this
+            one isn't.
+        </p>
         <script src="./src/alder.js"></script>
         <script>
             let a = new Alder();

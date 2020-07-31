@@ -37,5 +37,7 @@ class Alder {
         });
 
         sheet.remove();
+
+        return element;
     }
 }
