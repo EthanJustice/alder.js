@@ -46,8 +46,10 @@ a:hover {
     text-decoration: underline;
 }
 
-.fadeIn {
-    animation: 300ms fadeIn var(--primary-transition);
+code {
+    background-color: var(--tertiary);
+    color: var(--highlight);
+    padding: 2px 5px;
 }
 
 @keyframes fadeIn {
