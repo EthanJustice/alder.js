@@ -30,6 +30,10 @@
                 p {
                     color: red;
                 }
+
+                p:hover {
+                    color: var(--highlight) !important;
+                }
             </style>
             <p>
                 If you inspect this <code>p</code> element and the one
@@ -40,7 +44,7 @@
             you'll notice that the previous <code>p</code> is styled, while this
             one isn't.
         </p>
-        <script src="./src/alder.js"></script>
+        <script src="./dist/alder.js"></script>
         <script>
             let alder = new Alder();
         </script>

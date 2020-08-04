@@ -20,3 +20,9 @@ Accepts a single live node.  The node should be the parent of the `style` attrib
 let alder = new Alder(false);
 alder.parse(document.body.querySelector('style').parentElement) // will parse the style elements within the parent of the first style element
 ```
+
+### Notes
+
+#### Not Parsed
+
++ Media queries
