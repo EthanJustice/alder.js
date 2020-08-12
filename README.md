@@ -2,6 +2,10 @@
 
 tiny scoped css parser
 
+[Site](https://ethanjustice.github.io/alder/) | [Repository](https://github.com/EthanJustice/alder)
+
++ [Docs](#docs)
+
 ## Docs
 
 ### Constructor
@@ -22,6 +26,8 @@ alder.parse(document.body.querySelector('style').parentElement) // will parse th
 ```
 
 ### Notes
+
+When scoping pseudo-elements and pseudo-classes, if the parent element doesn't have a unique `id`, a `data-alder` attribute is added so that scoping can take place.
 
 #### Not Parsed
 

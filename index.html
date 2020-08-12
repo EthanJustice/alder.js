@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Alder | Tiny Scoped CSS Parser</title>
         <link rel="stylesheet" type="text/css" href="./index.css" />
     </head>
+
     <body>
         <nav>
             <style>
@@ -20,15 +22,17 @@
         <h1>Alder - A Micro Scoped-CSS Replacement</h1>
         <p>
             Alder acts as a replacement for the
-            <a
-                href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLStyleElement/scoped"
-                ><code>style</code> scoped attribute</a
-            >, which is now deprecated.
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLStyleElement/scoped"><code>style</code> scoped
+                attribute</a>, which is now deprecated.
         </p>
         <div>
             <style>
                 p {
                     color: red;
+                }
+
+                p>* {
+                    color: white
                 }
 
                 p:hover {
@@ -42,11 +46,14 @@
         </div>
         <p>
             you'll notice that the previous <code>p</code> is styled, while this
-            one isn't.
+            one isn't. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Pseudo-classes</a> and
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">pseudo-elements</a> are scoped
+            as well.
         </p>
-        <script src="./dist/alder.js"></script>
+        <script src="./src/alder.js"></script>
         <script>
             let alder = new Alder();
         </script>
     </body>
+
 </html>
