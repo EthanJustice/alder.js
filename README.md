@@ -2,7 +2,7 @@
 
 tiny scoped css parser
 
-[Site](https://ethanjustice.github.io/alder/) | [Repository](https://github.com/EthanJustice/alder)
+[Site](https://ethanjustice.github.io/alder.js/) | [Repository](https://github.com/EthanJustice/alder.js)
 
 + [Docs](#docs)
 
