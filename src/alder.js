@@ -43,3 +43,5 @@ class Alder {
         return i;
     }
 }
+
+export default Alder;
