@@ -1,6 +1,6 @@
 # alder
 
-tiny scoped css parser
+tiny scoped css
 
 [Site](https://ethanjustice.github.io/alder.js/) | [Repository](https://github.com/EthanJustice/alder.js)
 

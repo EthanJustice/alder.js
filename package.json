@@ -1,0 +1,21 @@
+{
+    "name": "alder.js",
+    "version": "0.2.1",
+    "description": "tiny scoped css",
+    "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EthanJustice/alder.js.git"
+    },
+    "keywords": [
+        "scoped-css",
+        "css",
+        "scoped"
+    ],
+    "author": "Ethan Justice",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/EthanJustice/alder.js/issues"
+    },
+    "homepage": "https://github.com/EthanJustice/alder.js#readme"
+}
