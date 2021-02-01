@@ -6,7 +6,7 @@
         "interface-name": false,
         "ban-types": true,
         "max-classes-per-file": true,
-        "max-line-length": false,
+        "max-line-length": 100,
         "member-access": true,
         "member-ordering": false,
         "no-bitwise": false,

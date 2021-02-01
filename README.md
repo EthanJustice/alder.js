@@ -2,7 +2,7 @@
 
 tiny scoped-css replacement
 
-[Site](https://ethanjustice.github.io/alder.js/) | [Repository](https://github.com/EthanJustice/alder.js) | [NPM](https://www.npmjs.com/package/alder.js) | [bundlephobia](https://bundlephobia.com/result?p=alder.js@0.2.1).
+[Site](https://ethanjustice.github.io/alder.ts/) | [Repository](https://github.com/EthanJustice/alder.ts) | [NPM](https://www.npmjs.com/package/alder.js) | [bundlephobia](https://bundlephobia.com/result?p=alder.js@0.2.1).
 
 + [Docs](#docs)
 
@@ -16,6 +16,8 @@ tiny scoped-css replacement
 ### Setup
 
 Alder uses [ES6 Imports/Exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import), so it can be imported using `import Alder from '{link}.js'`.
+
+Alder is available using [JSDelivr](https://www.jsdelivr.com/package/npm/alder.js).
 
 Alder is also available from [NPM](https://www.npmjs.com/) ([package](https://www.npmjs.com/package/alder.js)).
 
