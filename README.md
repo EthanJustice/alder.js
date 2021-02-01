@@ -1,10 +1,15 @@
 # alder.js
 
-tiny scoped css
+tiny scoped-css replacement
 
-[Site](https://ethanjustice.github.io/alder.js/) | [Repository](https://github.com/EthanJustice/alder.js) | [NPM](https://www.npmjs.com/package/alder.js)
+[Site](https://ethanjustice.github.io/alder.js/) | [Repository](https://github.com/EthanJustice/alder.js) | [NPM](https://www.npmjs.com/package/alder.js) | [bundlephobia](https://bundlephobia.com/result?p=alder.js@0.2.1).
 
 + [Docs](#docs)
+
+## Roadmap
+
++ add docs using JSDoc
++ tests
 
 ## Docs
 
@@ -16,24 +21,22 @@ Alder is also available from [NPM](https://www.npmjs.com/) ([package](https://ww
 
 To use in an NPM project:
 
-In your `package.json` (make sure you update the version):
+`npm i alder.js`
 
 ```json
 "dependencies": {
     "alder.js": "~0.2.1"
-    ...
+    // ...
 }
 ```
 
-Then run `npm install`, and import in your JavaScript file(s) like so:
+To use within your JavaScript/TypeScript file:
 
 ```javascript
 const { Alder } = require("alder.js");
 let alder = new Alder();
 // ...
 ```
-
-**Note**: the `Alder` class is Alder's default export.
 
 ### Constructor
 
